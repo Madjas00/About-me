@@ -8,7 +8,7 @@ var sanitizedAnswer = a1 .toUpperCase() .trim();
 
 if (sanitizedAnswer === 'Y'
 || sanitizedAnswer === 'YES') {
-    alert('You answered ' +a1+ ' .That is correct ' +name+ '! I am actually 28.');
+    alert('You answered ' +a1+ '. That is correct ' +name+ '! I am actually 28.');
 }
 else if (sanitizedAnswer === 'N'
 || sanitizedAnswer === 'NO') {
