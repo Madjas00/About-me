@@ -65,7 +65,7 @@ else if (sanitizedAnswer === 'N'
 else{
     alert('That is not a valid response! You imbecile!')
 }
-console.log ('answer4' +a1);
+console.log ('answer4 ' +a1);
 //question 5
 var a1 = prompt('Am I the world record holder for "Most Spaghetti Eaten In One Sitting?"');
 var sanitizedAnswer = a1 .toUpperCase() .trim();
