@@ -131,10 +131,11 @@ if (guess === null) {
   alert('Wimp. My fav num is 2!');
 } else {
   console.log('not a wimp');
-  
+
   if (guessCount === 4) {
     alert('You Lose!');
   } else {
+    console.log('Lose');
 
 
 
