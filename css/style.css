@@ -9,12 +9,36 @@ header p {
 header{
     background-color: black;
     color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 h2{
-    color: blue;
+    color: rgb(44, 44, 92);
 }
 
 div p {
     font-size: 15pt;
+}
+
+body {
+    background-color: rgb(200, 142, 255);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(160, 29, 29);
+    margin: 1em 0;
+    padding: 0; 
+}
+
+ol li {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
 }

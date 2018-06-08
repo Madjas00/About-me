@@ -15,7 +15,7 @@ function askQuestion1(questionText, correctWord, correctMessage, incorrectMessag
     alert(correctMessage);
 
   } else {
-    alert(incorrectMessage + name);
+    alert(incorrectMessage + nameU);
   }
 
 }
@@ -23,7 +23,7 @@ function askQuestion1(questionText, correctWord, correctMessage, incorrectMessag
 
 var questionText = 'Okay ' + nameU + ', am I over the age of 25?';
 var correctWord = 'yes';
-var correctMessage = 'That is right ' +name+ ', I am 28.';
+var correctMessage = 'That is right ' +nameU+ ', I am 28.';
 var incorrectMessage = 'Incorrect. I\'m actually 28, ';
 
 askQuestion1(questionText, correctWord, correctMessage, incorrectMessage);
