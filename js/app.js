@@ -1,6 +1,6 @@
 //greeting
 var nameU = prompt('Welcome to my About-Me quiz. What is your name?');
-var score = 0;
+
 console.log('name? ' + nameU);
 
 
@@ -38,62 +38,63 @@ askQuestion1('Am i the world record holder for "most spaghetti eaten in one sitt
 
 //question 6
 
-// var guess = prompt('What is my favorite number?');
-// console.log ('Guess is ' +guess);
-// var guessCount = 1;
+var guess = prompt('What is my favorite number?');
+console.log ('Guess is ' +guess);
+var guessCount = 1;
 
-// while (guess !== '2') {
-//   if (guess === null) {
-//     console.log('Guess is null; breaking');
-//     break;
-//   }
+while (guess !== '2') {
+  if (guess === null) {
+    console.log('Guess is null; breaking');
+    break;
+  }
 
-//   var promptWarning = 'Wrong!';
-//   if (guess >2) {
-//     promptWarning = 'Too high!';
-//   } else if (guess < 2) {
-//     promptWarning = 'Too low!';
-//   }
-//   console.log(promptWarning);
+  var promptWarning = 'Wrong!';
+  if (guess >2) {
+    promptWarning = 'Too high!';
+  } else if (guess < 2) {
+    promptWarning = 'Too low!';
+  }
+  console.log(promptWarning);
 
-//   if (guessCount >3) {
-//     alert('Too Many Guesses');
-//     break;
-//   }
+  if (guessCount >5) {
+    
+    alert('Too Many Guesses');
+    break;
+  }
 
-//   guess = prompt(promptWarning + ' Try Again: What is my favorite number?');
+  guess = prompt(promptWarning + ' Try Again: What is my favorite number?');
 
-//   console.log('Guess is ' + guess);
+  console.log('Guess is ' + guess);
 
-//   guessCount = guessCount + 1;
+  guessCount = guessCount + 1;
 
-//   console.log('guessCount is ' +guessCount);
-//   console.log('end of while loop');
-// }
-
-
-// console.log('while loop exited');
-
-// if (guess === null) {
-//   alert('Wimp. My fav num is 2!');
-// } else {
-//   console.log('not a wimp');
-
-//   if (guessCount === 4) {
-//     alert('You Lose!');
-//   } else {
-//     console.log('Lose');
+  console.log('guessCount is ' +guessCount);
+  console.log('end of while loop');
+}
 
 
+console.log('while loop exited');
 
-//     if (guessCount === 1) {
-//       alert('Got it first try');
-//     } else {
-//       alert('Correct! It took ' +guessCount+ ' guesses.');
-//     }
+if (guess === null) {
+  alert('Where do you think you are going?');
+} else {
+  console.log('not a wimp');
 
-//   }
-// }
+  if (guessCount === 6) {
+    alert('You Lose!');
+  } else {
+    console.log('Lose');
+
+
+
+    if (guessCount === 1) {
+      alert('Got it first try');
+    } else { (guessCount ===5);
+      alert('Correct! It took ' +guessCount+ ' guesses.');
+    }
+
+  }
+}
 
 
 
